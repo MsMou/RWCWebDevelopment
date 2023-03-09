@@ -1,12 +1,29 @@
 body{ 
     background: linear-gradient(45deg, dodgerblue, white, lightgreen);;
-
+   
+    font-style: Snell Roundhand, cursive;
 
 }
 
+
+img {
+position: relative;
+right: 380px;
+
+}
+
+
+a {
+ margin-right: 10px;
+  position: relative; 
+  top: -370px;
+  
+}
+
 p {
-font-family: Apple Chancery, cursivee;
+font-family: Apple Chancery, cursive;
 font-size: 20px;
 font-weight: bold;
 line-height: 1.5;
 }
+
