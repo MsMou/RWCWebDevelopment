@@ -1,0 +1,56 @@
+
+  :root {
+    --lite_green: #96DD99;
+    --granny_smith_apple: #A5E1A6;
+    --celadon: #B3E5B3;
+    --med_green: #52c41a;
+    --tea_green: #C2E9BF;
+    --teas_green: #D7F5D3;
+    --light_green: #D9FFB3;
+    --lig_green: #b9fc76;
+    --a_green: #039c9e;
+    --deep_voilet: #230C63; 
+    --indigo_dye:#132B92;
+
+} /* Root is a default psuedo class that we can write custom variables into with --. These variables are called by using the var() function. */
+body {
+    background: linear-gradient(20deg, dodgerblue, white, lightgreen);
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+}
+h1 {
+    background-color: var(--a_green);
+    color: var(--deep_voilet);
+    text-align: center;
+    font-weight: bold;
+
+}
+.link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+      }
+
+.link-container a {
+        margin: 0 10px; /* Change the margin to adjust the spacing between the links */
+      }
+    
+button{
+        background-color: var(--light_green);
+        border-radius: 15px;
+        
+
+
+     
+    }
+    button:hover{ 
+        background-color: var(--a_green);
+    
+    }
+
+h2{
+    background-color: var(--light_green);
+    color: var(--deep_voilet);
+    font-weight: bold;
+}
